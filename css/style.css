@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(/css/header.css);
+@import url(/css/home.css);
+@import url(/css/corosel.css);
+@import url(/css/about.css);
+@import url(/css/faqmid.css);
+@import url(/css/skill.css);
+@import url(/css/service.css);
+@import url(/css/callaction.css);
+@import url(/css/team.css);
+@import url(/css/price.css);
+@import url(/css/faq.css);
+@import url(/css/contact.css);
+@import url(/css/newslatter.css);
+@import url(/css/footer.css);
+@import url(/css/copyright.css);
+body{
+    font-family: var(--font-family-para);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --home-back: #37517E;
+    --font-family-title : "Jost", sans-serif;
+    --font-family-para :  "Open Sans", sans-serif ;
+    --font-white:#ffffff;
+    --font-blue:#47B2E4;
+    --font-drkblue:#37517E;
+    --font-color-gray:#c2bdbd;
+    --white-back:#ffffff;
+    --gray-back:rgb(245, 245, 245);
+}
+
+
+body {    
+    font-family: var(--font-family-para);
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.w-100 {
+
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    width: 100%;
+}
+
+header , section , footer {
+    float: left;
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+    
+}
+
+
+ul {
+    list-style: none;
+}
+
+span a {
+    display: inline-block;
+}
+
+.btn 
+{
+    font-family: var(--font-family-title);
+    background-color: #47B2E4;
+    border-radius: 50px;
+    padding: 5px 15px;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+
+}
+
+.btn:hover{
+    background-color: #299ed4;
+transition: all 0.5s;
+}
+
+
+.title
+{
+font-family: var(--font-family-title);
+font-size: 30px;
+
+}
+
+
+.spacer 
+{
+    padding: 80px 0;
+}
+
+
+.para {
+    font-size: 15px;
+    font-family: var(--font-family-para);
+    color: var(--font-color-gray);
+}
+

@@ -1,0 +1,153 @@
+footer{
+    .w-100{
+        .w-30{
+            float: left;
+            width: 30%;
+           
+            .company-detail{
+                float: left;
+                width: 100%;
+               text-align: center;
+               font-size: 15px;
+                .title{
+                    color: var(--font-drkblue);
+                    font-family: var(--font-family-title);
+                    font-weight: 900;
+                }
+            }
+        }
+        .w-70{
+            float: left;
+            width: 70%;
+            .footer-right{
+                padding-left: 50px;
+                float: left;
+                width: 100%;
+                .w-100{
+                    .w-30{
+                        float: left;
+                        width: 33.33%;
+                        .footer-right-inner{
+                            .tit{
+                                font-weight: 700;
+                                font-size: 15px;
+                                color: var(--font-drkblue);
+                                padding-bottom: 10px;
+                            }
+                            .para{
+                                font-size: 15px;
+                                line-height: 20px;
+                                padding-bottom: 10px;
+                            }
+                            .footer-list{
+                                li{
+                                    line-height: 20px;
+                                    font-size: 15px;
+                                    font-family: var(--font-family-para);
+                                    color:var( --font-color-gray)
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) { 
+   .spacer{
+    padding: 10px 0;
+   }
+    footer{
+    width: 98%;
+    .w-100{
+        .w-30{
+            width: 100%;
+            .company-detail{
+                padding-bottom: 15px;
+                .title{
+                    font-size: 20px;
+
+                }
+            }
+        }
+        .w-70{
+            width: 100%;
+            .footer-right{
+                padding: 0;
+                float: left;
+                width: 100%;
+                .w-100{
+                    .w-30{
+                        float: left;
+                        width: 33.33%;
+                        .footer-right-inner{
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   }
+}
+
+@media (min-width: 481px) and (max-width: 768px) { 
+    .spacer{
+        padding: 10px 0;
+       }
+        footer{
+        width: 98%;
+        .w-100{
+            .w-30{
+                width: 100%;
+                .company-detail{
+                    padding-bottom: 15px;
+                    .title{
+                        font-size: 20px;
+    
+                    }
+                }
+            }
+            .w-70{
+                width: 100%;
+                .footer-right{
+                    padding: 0;
+                    float: left;
+                    width: 100%;
+                    .w-100{
+                        .w-30{
+                            float: left;
+                            width: 33.33%;
+                            .footer-right-inner{
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+       }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) { 
+    /* Styles for small laptops */
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) { 
+    /* Styles for medium laptops */
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) { 
+    /* Styles for large laptops */
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) { 
+    /* Styles for large desktops */
+}
+
+@media (min-width: 1921px) { 
+    /* Styles for 4K and ultra-wide screens */
+}

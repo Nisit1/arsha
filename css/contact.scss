@@ -1,0 +1,241 @@
+.contact{
+    .container{
+        .w-100{
+            .cotit-para{
+                float: left;
+                width: 100%;
+                text-align: center;
+                .tit{
+                    font-family: var(--font-family-title);
+                    font-size: 30px;
+                    color: var(--font-drkblue);
+                    font-weight: 900;
+                    padding-bottom: 20px;
+                }
+                .para{
+                    font-size: 15px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+        .w-100{
+            .w-40{
+                float: left;
+                width: 40%;
+                .contact-left{
+                    box-shadow: 0 1px 2px rgba(0,0,0,0.5);padding: 20px;
+                    .contact-inner{
+                        // float: left;
+                        justify-content: center;
+                        width: 100%;
+                        .map{
+                           iframe{
+                            width: 100%;
+                           }
+                        }
+                        display: flex;
+                        padding: 10px 0;
+                        .icon{
+                            padding: 0 20px;
+                           
+                        }
+                        .icon-detail{
+                            .tit{
+                                color: var(--font-drkblue);
+                                font-weight: 700;
+                                padding-bottom: 5px;
+                            }
+                            .detail{
+                                font-size: 10px;
+                            }
+                           
+                        }
+                    }
+                }
+            }
+            .w-60{
+                float: left;
+                width: 60%;
+                .form-outer{
+                    text-align: center;
+                    padding: 20px;
+                    margin:0 20px;
+                    box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+                display: flex;
+                flex-wrap: wrap;
+               input{
+                padding: 10px;
+                width: 100%;
+                margin: 10px;
+               }
+               textarea{
+                padding: 10px;
+                width: 100%;
+                margin: 10px;
+               }
+
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px) { 
+   .spacer{
+    padding: 10px 0;
+   }
+   .contact{
+    .container{
+        width: 98%;
+        .w-100{
+            .cotit-para{
+                width: 100%;
+                .tit{
+                    font-size: 20px;
+                    padding-bottom: 10px;
+                }
+                .para{
+                    font-size: 15px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+        .w-100{
+            .w-40{
+                width: 100%;
+                .contact-left{
+                    padding: 10px;
+                    .contact-inner{
+                        width: 100%;
+                        padding: 10px 0;
+                        justify-content: space-evenly;
+                        .icon{
+                           
+                                padding:0 ;
+                            
+                        }
+                    }
+                }
+            }
+            .w-60{
+                width: 100%;
+                .form-outer{
+                    margin: 10px 0;
+                    padding: 10px;
+                 input , textarea{
+                    margin: 5px;
+                    padding: 5px;
+                    font-size: 10px;
+                 }
+                 button{
+                    font-size: 10px;
+                 }
+                }
+            }
+        }
+    }
+   }
+}
+
+@media (min-width: 481px) and (max-width: 768px) { 
+    .spacer{
+    padding: 10px 0;
+   }
+  .contact{
+    .container{
+        width: 98%;
+        .w-100{
+            .cotit-para{
+                .tit{
+                    font-family: var(--font-family-title);
+                    font-size: 20px;
+                    padding-bottom: 10px;
+                }
+                .para{
+                    font-family: var(--font-family-para);
+                    font-size: 15px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+        .w-100{
+            .w-40{
+                width: 50%;
+                .contact-left{
+                    padding: 10px;
+                }
+            }
+            .w-60{
+                width: 50%;
+                .form-outer{
+                    padding: 10px;
+                    margin: 0 10px;
+                    input , textarea{
+                        margin: 5px;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) { 
+    .spacer{
+        padding: 10px 0;
+       }
+      .contact{
+        .container{
+            width: 98%;
+            .w-100{
+                .cotit-para{
+                    .tit{
+                        font-family: var(--font-family-title);
+                        font-size: 20px;
+                        padding-bottom: 10px;
+                    }
+                    .para{
+                        font-family: var(--font-family-para);
+                        font-size: 15px;
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+            .w-100{
+                .w-40{
+                    width: 50%;
+                    .contact-left{
+                        padding: 10px;
+                    }
+                }
+                .w-60{
+                    width: 50%;
+                    .form-outer{
+                        padding: 10px;
+                        margin: 0 10px;
+                        input , textarea{
+                            margin: 5px;
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+      }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) { 
+    /* Styles for medium laptops */
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) { 
+    /* Styles for large laptops */
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) { 
+    /* Styles for large desktops */
+}
+
+@media (min-width: 1921px) { 
+    /* Styles for 4K and ultra-wide screens */
+}

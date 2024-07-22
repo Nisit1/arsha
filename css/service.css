@@ -1,0 +1,130 @@
+.service {
+  padding: 30px 0;
+  background: var(--gray-back);
+}
+.service .container .w-100 .title {
+  font-weight: 900;
+  float: left;
+  width: 100%;
+  text-align: center;
+  color: var(--font-drkblue);
+  padding-bottom: 20px;
+}
+.service .container .w-100 .para {
+  font-size: 15px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  color: var(--font-color-gray);
+  padding-bottom: 50px;
+}
+.service .container .w-100 .w-25 {
+  float: left;
+  width: 25%;
+}
+.service .container .w-100 .w-25 .service-card {
+  height: 100%;
+  margin: 0 10px;
+  padding: 20px;
+  background: var(--white-back);
+}
+.service .container .w-100 .w-25 .service-card .icon {
+  padding-bottom: 20px;
+}
+.service .container .w-100 .w-25 .service-card .icon i {
+  font-size: 30px;
+}
+.service .container .w-100 .w-25 .service-card .title1 {
+  font-size: 20px;
+  color: var(--font-drkblue);
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.service .container .w-100 .w-25 .service-card .para {
+  color: var(--font-color-gray);
+  text-align: start;
+  font-size: 15px;
+}
+
+@media (max-width: 480px) {
+  .service .container {
+    width: 98%;
+  }
+  .service .container .w-100 {
+    width: 100%;
+  }
+  .service .container .w-100 .title {
+    font-size: 20px;
+    padding: 0;
+  }
+  .service .container .w-100 .para {
+    font-size: 15px;
+    padding: 0;
+  }
+  .service .container .w-100 .w-25 {
+    margin: 5px;
+    width: 45%;
+  }
+  .service .container .w-100 .w-25 .service-card {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  .service .container .w-100 .w-25 .service-card .icon {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .service .container .w-100 .w-25 .service-card .title1 {
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .service .container {
+    width: 98%;
+  }
+  .service .container .w-100 {
+    width: 100%;
+  }
+  .service .container .w-100 .title {
+    font-size: 20px;
+    padding: 0;
+  }
+  .service .container .w-100 .para {
+    font-size: 15px;
+    padding: 0;
+  }
+  .service .container .w-100 {
+    width: 100%;
+  }
+  .service .container .w-100 .w-25 {
+    margin: 5px;
+    width: 45%;
+  }
+  .service .container .w-100 .w-25 .service-card {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  .service .container .w-100 .w-25 .service-card .icon {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .service .container .w-100 .w-25 .service-card .title1 {
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for small laptops */
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Styles for medium laptops */
+}
+@media (min-width: 1281px) and (max-width: 1440px) {
+  /* Styles for large laptops */
+}
+@media (min-width: 1441px) and (max-width: 1920px) {
+  /* Styles for large desktops */
+}
+@media (min-width: 1921px) {
+  /* Styles for 4K and ultra-wide screens */
+}/*# sourceMappingURL=service.css.map */

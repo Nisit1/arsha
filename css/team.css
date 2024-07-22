@@ -1,0 +1,111 @@
+.team {
+  background: var(--white-back);
+}
+.team .container .w-100 .teamtit-para {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.team .container .w-100 .teamtit-para .tit {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--font-drkblue);
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+.team .container .w-100 .teamtit-para .para {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.team .container .w-100 .w-50 {
+  float: left;
+  width: 50%;
+}
+.team .container .w-100 .w-50 .team-card {
+  float: left;
+  width: 90%;
+  padding: 20px;
+  background: var(--white-back);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+.team .container .w-100 .w-50 .team-card .w-100 .w-20 {
+  float: left;
+  width: 20%;
+}
+.team .container .w-100 .w-50 .team-card .w-100 .w-20 img {
+  width: 100%;
+  border-radius: 50px;
+}
+.team .container .w-100 .w-50 .team-card .w-100 .w-80 {
+  float: left;
+  width: 80%;
+}
+.team .container .w-100 .w-50 .team-card .w-100 .w-80 .card-inner {
+  padding-left: 20px;
+}
+
+@media (max-width: 480px) {
+  .team .container {
+    width: 98%;
+  }
+  .team .container .w-100 .teamtit-para .tit {
+    padding: 0;
+  }
+  .team .container .w-100 .teamtit-para .tit h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .team .container .w-100 .teamtit-para .para {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .team .container .w-100 .w-50 {
+    float: left;
+    width: 100%;
+  }
+  .team .container .w-100 .w-50 .team-card {
+    padding: 5px;
+    margin: 5px;
+  }
+  .team .container .w-100 .w-50 .team-card .w-100 .w-20 {
+    text-align: center;
+    width: 100%;
+  }
+  .team .container .w-100 .w-50 .team-card .w-100 .w-20 img {
+    width: 40%;
+    padding-bottom: 10px;
+  }
+  .team .container .w-100 .w-50 .team-card .w-100 .w-80 {
+    width: 100%;
+  }
+  .team .container .w-100 .w-50 .team-card .w-100 .w-80 .card-inner .tit {
+    font-size: 20px;
+    font-family: var(--font-family-title);
+    font-weight: 900;
+  }
+  .team .container .w-100 .w-50 .team-card .w-100 .w-80 .card-inner .para {
+    font-size: 15px;
+  }
+  .team .container .w-100 .w-50 .team-card .w-100 .w-80 .card-inner .icon {
+    padding-top: 10px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Styles for large mobile devices and tablets */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for small laptops */
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Styles for medium laptops */
+}
+@media (min-width: 1281px) and (max-width: 1440px) {
+  /* Styles for large laptops */
+}
+@media (min-width: 1441px) and (max-width: 1920px) {
+  /* Styles for large desktops */
+}
+@media (min-width: 1921px) {
+  /* Styles for 4K and ultra-wide screens */
+}/*# sourceMappingURL=team.css.map */

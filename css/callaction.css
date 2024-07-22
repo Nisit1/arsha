@@ -1,0 +1,116 @@
+.call-action .w-100 .perillex {
+  float: left;
+  width: 100%;
+  padding: 50px 50px;
+  justify-content: space-between;
+  background: url(/img/call-action/call-action.jpg);
+  background-attachment: fixed;
+  opacity: 0.5;
+  display: flex;
+}
+.call-action .w-100 .perillex .tit-para {
+  width: 60%;
+}
+.call-action .w-100 .perillex .tit-para .title {
+  color: var(--font-white);
+  font-weight: 900;
+}
+.call-action .w-100 .perillex .tit-para .para {
+  font-size: 15px;
+  color: var(--font-white);
+}
+.call-action .w-100 .perillex button {
+  padding: 0 10px;
+  background: transparent;
+  border: 2px white solid;
+  border-radius: 20px;
+  color: var(--font-white);
+}
+
+@media (max-width: 480px) {
+  .call-action {
+    width: 98%;
+  }
+  .call-action .w-100 .perillex {
+    padding: 10px;
+    display: block;
+  }
+  .call-action .w-100 .perillex .tit-para {
+    width: 100%;
+  }
+  .call-action .w-100 .perillex .tit-para .title {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .call-action .w-100 .perillex .tit-para .para {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .call-action .w-100 .perillex .tit-para button {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .call-action {
+    width: 98%;
+  }
+  .call-action .w-100 .perillex {
+    padding: 10px;
+    display: block;
+  }
+  .call-action .w-100 .perillex .tit-para {
+    width: 100%;
+  }
+  .call-action .w-100 .perillex .tit-para .title {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .call-action .w-100 .perillex .tit-para .para {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .call-action .w-100 .perillex .tit-para button {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .call-action {
+    width: 98%;
+  }
+  .call-action .w-100 .perillex {
+    padding: 10px;
+    display: block;
+  }
+  .call-action .w-100 .perillex .tit-para {
+    width: 100%;
+  }
+  .call-action .w-100 .perillex .tit-para .title {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .call-action .w-100 .perillex .tit-para .para {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .call-action .w-100 .perillex .tit-para button {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Styles for medium laptops */
+}
+@media (min-width: 1281px) and (max-width: 1440px) {
+  /* Styles for large laptops */
+}
+@media (min-width: 1441px) and (max-width: 1920px) {
+  /* Styles for large desktops */
+}
+@media (min-width: 1921px) {
+  /* Styles for 4K and ultra-wide screens */
+}/*# sourceMappingURL=callaction.css.map */

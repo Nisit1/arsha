@@ -1,0 +1,14 @@
+.copy-right {
+  text-align: center;
+}
+.copy-right .w-100 .copy {
+  border-top: 1px solid rgba(128, 128, 128, 0.199);
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+.copy-right .w-100 .made-by {
+  float: left;
+  width: 100%;
+  padding-bottom: 30px;
+}/*# sourceMappingURL=copyright.css.map */

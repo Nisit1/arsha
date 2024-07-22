@@ -1,0 +1,177 @@
+.faqmid{
+    padding: 20px 0;
+    background: var(--gray-back);
+    .container{
+        .w-100{
+            .faqmid-outer{
+                display: flex;
+                .w-60{
+                    float: left;
+                    width: 60%;
+                    .faqmid-left{
+                        float: left;
+                        width: 100%;
+                        .para{
+                            color: #444444;
+                            font-size: 15px;
+                            padding-bottom: 10px;
+                        }
+                        .title{
+                            padding-bottom: 10px;
+                            color: var(--font-drkblue);
+                        }
+                        .faqmid-card{
+                            details{
+                                background-color: var(--white-back);
+                                padding: 10px;
+                                margin: 10px 0;
+                                transition: all 0.5s;
+                            }
+                        }
+                    }
+                }
+                .w-40{
+                    display: flex;
+                    align-items: center;
+                    // justify-content: center;
+                    float: left;
+                    width: 40%;
+                    .faqmid-right{
+                    
+                        float: left;
+                        width: 100%;
+                        img{
+                           padding-left: 100px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px) { 
+   .faqmid{
+    .container{
+        width: 98% !important;
+        .w-100{
+            .faqmid-outer{
+                flex-wrap: wrap;
+                .w-60{
+                    width: 100%;
+                    .faqmid-left{
+                        width: 100%;
+                        .title{
+                            font-size: 20px;
+
+                        }
+                        .para{
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .w-40{
+                    width: 100%;
+                    .faqmid-right{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   }
+}
+
+@media (min-width: 481px) and (max-width: 768px) { 
+    .faqmid{
+        .container{
+            width: 98% !important;
+            .w-100{
+                .faqmid-outer{
+                    flex-wrap: wrap;
+                    .w-60{
+                        width: 100%;
+                        .faqmid-left{
+                            width: 100%;
+                            .title{
+                                font-size: 20px;
+    
+                            }
+                            .para{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                    .w-40{
+                        width: 100%;
+                        .faqmid-right{
+                            width: 100%;
+                            img{
+                                width: 100%;
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+       }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) { 
+    .faqmid{
+        .container{
+            width: 98% !important;
+            .w-100{
+                .faqmid-outer{
+                    flex-wrap: wrap;
+                    .w-60{
+                        width: 100%;
+                        .faqmid-left{
+                            width: 100%;
+                            .title{
+                                font-size: 20px;
+    
+                            }
+                            .para{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                    .w-40{
+                        width: 100%;
+                        .faqmid-right{
+                            width: 100%;
+                            text-align: center;
+                            img{
+                                
+                            width: 40%;
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+       }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) { 
+    /* Styles for medium laptops */
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) { 
+    /* Styles for large laptops */
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) { 
+    /* Styles for large desktops */
+}
+
+@media (min-width: 1921px) { 
+    /* Styles for 4K and ultra-wide screens */
+}

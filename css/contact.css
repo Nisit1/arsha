@@ -1,0 +1,197 @@
+.contact .container .w-100 .cotit-para {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.contact .container .w-100 .cotit-para .tit {
+  font-family: var(--font-family-title);
+  font-size: 30px;
+  color: var(--font-drkblue);
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+.contact .container .w-100 .cotit-para .para {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.contact .container .w-100 .w-40 {
+  float: left;
+  width: 40%;
+}
+.contact .container .w-100 .w-40 .contact-left {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+.contact .container .w-100 .w-40 .contact-left .contact-inner {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+}
+.contact .container .w-100 .w-40 .contact-left .contact-inner .map iframe {
+  width: 100%;
+}
+.contact .container .w-100 .w-40 .contact-left .contact-inner .icon {
+  padding: 0 20px;
+}
+.contact .container .w-100 .w-40 .contact-left .contact-inner .icon-detail .tit {
+  color: var(--font-drkblue);
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.contact .container .w-100 .w-40 .contact-left .contact-inner .icon-detail .detail {
+  font-size: 10px;
+}
+.contact .container .w-100 .w-60 {
+  float: left;
+  width: 60%;
+}
+.contact .container .w-100 .w-60 .form-outer {
+  text-align: center;
+  padding: 20px;
+  margin: 0 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact .container .w-100 .w-60 .form-outer input {
+  padding: 10px;
+  width: 100%;
+  margin: 10px;
+}
+.contact .container .w-100 .w-60 .form-outer textarea {
+  padding: 10px;
+  width: 100%;
+  margin: 10px;
+}
+
+@media (max-width: 480px) {
+  .spacer {
+    padding: 10px 0;
+  }
+  .contact .container {
+    width: 98%;
+  }
+  .contact .container .w-100 .cotit-para {
+    width: 100%;
+  }
+  .contact .container .w-100 .cotit-para .tit {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .contact .container .w-100 .cotit-para .para {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .contact .container .w-100 .w-40 {
+    width: 100%;
+  }
+  .contact .container .w-100 .w-40 .contact-left {
+    padding: 10px;
+  }
+  .contact .container .w-100 .w-40 .contact-left .contact-inner {
+    width: 100%;
+    padding: 10px 0;
+    justify-content: space-evenly;
+  }
+  .contact .container .w-100 .w-40 .contact-left .contact-inner .icon {
+    padding: 0;
+  }
+  .contact .container .w-100 .w-60 {
+    width: 100%;
+  }
+  .contact .container .w-100 .w-60 .form-outer {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  .contact .container .w-100 .w-60 .form-outer input, .contact .container .w-100 .w-60 .form-outer textarea {
+    margin: 5px;
+    padding: 5px;
+    font-size: 10px;
+  }
+  .contact .container .w-100 .w-60 .form-outer button {
+    font-size: 10px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .spacer {
+    padding: 10px 0;
+  }
+  .contact .container {
+    width: 98%;
+  }
+  .contact .container .w-100 .cotit-para .tit {
+    font-family: var(--font-family-title);
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .contact .container .w-100 .cotit-para .para {
+    font-family: var(--font-family-para);
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .contact .container .w-100 .w-40 {
+    width: 50%;
+  }
+  .contact .container .w-100 .w-40 .contact-left {
+    padding: 10px;
+  }
+  .contact .container .w-100 .w-60 {
+    width: 50%;
+  }
+  .contact .container .w-100 .w-60 .form-outer {
+    padding: 10px;
+    margin: 0 10px;
+  }
+  .contact .container .w-100 .w-60 .form-outer input, .contact .container .w-100 .w-60 .form-outer textarea {
+    margin: 5px;
+    padding: 5px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .spacer {
+    padding: 10px 0;
+  }
+  .contact .container {
+    width: 98%;
+  }
+  .contact .container .w-100 .cotit-para .tit {
+    font-family: var(--font-family-title);
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .contact .container .w-100 .cotit-para .para {
+    font-family: var(--font-family-para);
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .contact .container .w-100 .w-40 {
+    width: 50%;
+  }
+  .contact .container .w-100 .w-40 .contact-left {
+    padding: 10px;
+  }
+  .contact .container .w-100 .w-60 {
+    width: 50%;
+  }
+  .contact .container .w-100 .w-60 .form-outer {
+    padding: 10px;
+    margin: 0 10px;
+  }
+  .contact .container .w-100 .w-60 .form-outer input, .contact .container .w-100 .w-60 .form-outer textarea {
+    margin: 5px;
+    padding: 5px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Styles for medium laptops */
+}
+@media (min-width: 1281px) and (max-width: 1440px) {
+  /* Styles for large laptops */
+}
+@media (min-width: 1441px) and (max-width: 1920px) {
+  /* Styles for large desktops */
+}
+@media (min-width: 1921px) {
+  /* Styles for 4K and ultra-wide screens */
+}/*# sourceMappingURL=contact.css.map */
